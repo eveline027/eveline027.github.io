@@ -44,7 +44,12 @@ nav img{
     color:orangered;
     transition: 0.4s;
 }
-
+.cover{
+    background: url(https://img.freepik.com/free-vector/teacher-showing-correct-answer-phone-children-class-group-cartoon-girls-boys-using-tablets-laptops-table-classroom-flat-vector-illustration-education-technology-concept_74855-22049.jpg?w=826&t=st=1647944099~exp=1647944699~hmac=5872b4d4531e2e3ba0ac196a2a93a3758693099e9dacab0a12f3ebc0d1cab6a3);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
 .about{
     display: flex;
     flex-direction: column;
@@ -52,14 +57,14 @@ nav img{
     align-items: center;
     justify-content: center;
     color:darkcyan;
-    padding-bottom: 50px;
+    padding: 50px 0px;
 }
-.about h1{
-    margin-top: 0px;
+.cover h1{
+    margin-top: 10px;
     text-align: center;
     font-family: 'Black Han Sans', sans-serif;
     font-size: 70px;
-    color:orange;
+    color: #e55737;
     text-shadow: black 3px 5px;
     padding: 50px 0px 50px;
 }
